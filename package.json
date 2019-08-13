@@ -1,0 +1,28 @@
+{
+  "name": "apollo-server-cluster-shared-cache",
+  "version": "1.0.0",
+  "description": "cluster shared cache for apollo server",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/wszgxa/apollo-server-cluster-shared-cache.git",
+  "author": "hiluluke <hiluluke@hotmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc --build",
+    "test": "jest --coverage",
+    "lint": "eslint src/**/*"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.17",
+    "@types/node": "^12.7.1",
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "eslint": "^6.1.0",
+    "eslint-plugin-jest": "^22.15.1",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
