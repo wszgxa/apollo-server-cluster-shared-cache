@@ -3,10 +3,10 @@ module.exports = {
   testEnvironment: 'node',
   coverageDirectory: './coverage',
   testPathIgnorePatterns: [
-    "/node_modules/",
-    "/dist/"
+    '/node_modules/',
+    '/dist/'
   ],
   collectCoverageFrom: [
-    "src/**/*.ts"
+    'src/**/*.ts'
   ]
-};
+}
