@@ -1,3 +1,3 @@
-const sayHello = () => 'Hello World!'
+import ClusterSharedCache from './ClusterSharedCache'
 
-export default sayHello
+export default ClusterSharedCache

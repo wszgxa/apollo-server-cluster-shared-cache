@@ -10,6 +10,16 @@ module.exports =  {
   "plugins": ["jest"],
   rules:  {
     "@typescript-eslint/indent": ["error", 2],
+    '@typescript-eslint/member-delimiter-style': ['error', {
+      "multiline": {
+        "delimiter": "none",
+        "requireLast": false
+      },
+      "singleline": {
+          "delimiter": "comma",
+          "requireLast": false
+        }
+      }],
     "quotes": ["error", "single"],
     "semi": ["error", "never"],
     "no-console": "error",
